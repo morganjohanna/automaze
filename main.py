@@ -686,7 +686,7 @@ def setup_finish_game():
 
     start_y = SCREEN_HEIGHT - DEFAULT_LINE_HEIGHT * 3
     finish_game_page.text = arcade.Text(
-        f"Your dragon reached the Sparkly {iteration_global} times and is very grateful!\n\nPress SPACE or ESCAPE to exit the window.",
+        f"Your dragon reached the Sparkly {iteration_global} times and is very grateful!\n\nTell us how you liked Automaze and find out more about us at sifgames.com\n\nPress SPACE or ESCAPE to exit the window.",
         start_x,
         start_y,
         arcade.color.BLACK,
